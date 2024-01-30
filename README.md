@@ -24,11 +24,9 @@ hodnotou, uvnitř metody se `velikostStrany` chová jako proměnná (proto musí
 Turtle zofka = new Turtle();
 
 public void start() {
-        zofka.setLocation(100.0,100.0);
         // Volani metody, do ktere se preda hodnota 50.0
         nakresliRovnostrannyTrojuhelnik(50.0);
 
-        zofka.setLocation(300.0,100.0);
         // Volani metody, do ktere se preda hodnota 70.0
         nakresliRovnostrannyTrojuhelnik(70.0);
 }
@@ -55,11 +53,9 @@ public void start() {
         Color cervenaBarva;
         cervenaBarva=new Color(255,0,0);
 
-        zofka.setLocation(100.0,100.0);
         // Volani metody, do ktere se preda hodnota 50.0 a objekt, ktery je v promenne cervenaBarva
         nakresliBarevnyRovnostrannyTrojuhelnik(50.0,cervenaBarva);
 
-        zofka.setLocation(300.0,100.0);
         // Volani metody, do ktere se preda hodnota 70.0 a in-line vytvoreny objekt barvy
         nakresliBarevnyRovnostrannyTrojuhelnik(70.0,new Color(0,127,255));
 }
