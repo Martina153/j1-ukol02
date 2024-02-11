@@ -32,14 +32,7 @@ public class HlavniProgram {
         zofka.move(delkaStrany);
         for (int i = 0; i <2; i++) {
             zofka.turnRight(120);
-            zofka.move(delkaStrany);;
-        }
-    }
-
-    public void nakresliCtverec(double delkaStrany) {
-        for (int i = 0; i <4; i++) {
             zofka.move(delkaStrany);
-            zofka.turnRight(90);
         }
     }
 
@@ -82,14 +75,14 @@ public class HlavniProgram {
         for (int i=0; i<2; i++) {
             zofka.turnLeft(90);
             zofka.move(20);
-        };
+        }
         zofka.penDown();
         nakresliKruh(20);
         zofka.penUp();
         for (int i=0; i<2; i++) {
             zofka.turnLeft(90);
             zofka.move(20);
-        };
+        }
         zofka.turnLeft(90);
         zofka.move(100);
         zofka.turnLeft(90);
@@ -100,7 +93,7 @@ public class HlavniProgram {
         for (int i=0; i<2; i++) {
             zofka.turnLeft(90);
             zofka.move(20);
-        };
+        }
         zofka.turnLeft(90);
         zofka.move(70);
         zofka.penDown();
@@ -141,6 +134,7 @@ public class HlavniProgram {
         zofka.turnRight(90);
         zofka.penDown();
         nakresliKruh(30);
+        zofka.penUp();
     }
 
     public void nakresliZmrzlinu(double polomer) {
